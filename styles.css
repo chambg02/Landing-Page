@@ -1,0 +1,129 @@
+
+/* Setting Generalised Styling */
+
+body {
+    overflow:hidden;
+    font-family: Roboto, sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Header Section */
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 16px;
+    background: #1F2937;
+    align-items: center;
+}
+
+ul {
+    display: flex;
+    gap: 30px;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.header img {
+    width: 100px;
+    height: auto;
+}
+
+/* About Section */
+
+.about-container {
+    display: flex;
+    margin-bottom: 32px;
+    background: #1F2937;
+    color: #F9FAF8;
+    padding: 16px;
+}
+
+.about-text {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    align-items: left;
+    margin-left: 350px;
+}
+
+.about-image {
+    flex: 1;
+    align-items: flex-end;
+    margin-right: 350px;
+}
+
+.about-image img {
+    width: 200px;
+    height: auto;
+}
+
+/* Info Section */
+
+.info-container {
+    text-align: center;
+    margin-bottom: 32px;
+    color: #1F2937;
+}
+
+.title {
+    margin-bottom: 32px;
+}
+
+.info-image-container {
+    display: flex;
+    justify-content: center;
+    gap: 52px;
+}
+
+.info img {
+    width: 100px;
+    height: auto;
+}
+
+/* Quote Section */
+
+.quote-container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-bottom: 32px;
+    background: #E5E7EB;
+}
+
+/* Call to Action Section */
+
+.call-container {
+    display: flex;
+}
+
+.call-text {
+    display:flex;
+    flex: 1;
+    flex-direction: column;
+    align-items: center;
+}
+
+.call-button {
+    flex: 1;
+justify-content: flex-start;
+}
+
+/* Footer Section */
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #1F2937;
+    color: #F9FAF8;
+}
